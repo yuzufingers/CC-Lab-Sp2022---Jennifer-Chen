@@ -1,0 +1,27 @@
+body {
+    background-color: bisque;
+    margin:0;
+}
+div{
+    background-color: aliceblue;
+    width:200px;
+    height:150px;
+    margin:20px; 
+    /* can take four values, and will move clockwise */
+    border-width: 1px;
+    border-style: dotted;
+    border-color: black;
+}
+p{
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+#specialbox{
+    background-color: yellow;
+    position:absolute;
+    /* fixed, relative is also an option */
+    left:150px;
+    top:200px;
+    /* use x and y position need to use absolute */
+}
