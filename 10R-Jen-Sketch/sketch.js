@@ -1,5 +1,5 @@
 function setup() {
-  let cvs = createCanvas(600, 600);
+  let cvs = createCanvas(1000, 600);
   cvs.parent("my-brush");
   background(255, 255, 255);
 
