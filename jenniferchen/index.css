@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #DDA0DD;
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 18;
+}
+
+#main-container {
+    width: 100%;
+}
+
+#img-container {
+    background-color: cyan;
+    position: relative;
+    width: 100%;
+    /* height: 50%; */
+}
+
+#btn-sign{
+    background-color: white;
+    width:3%;
+    height:4%;
+
+    position:absolute;
+    left: 86%;
+    top: 25%;   
+    transform: translate(-50%, -50%);
+    z-index:10;
+
+    text-align: center;
+    font-family: "Helvetica";
+    font-size:12;
+}
+
+#btn-mirror{
+    background-color: white;
+    width:4%;
+    height:3%;
+
+    position:absolute;
+    left: 37%;
+    top:16%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+
+    text-align: center;
+    font-family: "Helvetica";
+    font-size:12;
+}
+
+#btn-plate {
+    background-color: white;
+    width: 3%;
+    height: 3%;
+
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    z-index: 10;
+
+    text-align: center;
+    font-family: "Helvetica";
+    font-size:12;
+}
+
+.center {
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 50%;
+}
+
+/*
+#btn-sign {
+    background-color: white;
+    position: absolute;
+    left: 1000px;
+    top: 240px;
+    width: 10px;
+    height: 10px;
+    z-index: 10;
+}
+*/
+/*
+#btn-mirror {
+    background-color: white;
+    position: absolute;
+    left: 402px;
+    top: 190px;
+    width: 10px;
+    height: 10px;
+    z-index: 10;
+}
+*/
+
+/* #btn-plate{
+    background-color: whitesmoke;
+    position:absolute;
+    left: 25%;
+    top:48%;
+    width:3%;
+    height:4%;
+    z-index:30;
+} */

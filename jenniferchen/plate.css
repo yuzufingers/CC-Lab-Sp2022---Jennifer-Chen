@@ -1,0 +1,33 @@
+#p5-canvas-container {
+  width: 285px;
+  height:285px;
+  position:absolute;
+  left:657px;
+  right: 657px;
+  top: 475px;
+  transform: translate(-50%,-50%);
+}
+
+.center{
+  display:block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+  color: #DDA0DD;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  font-size: 18;
+}
+
+/* html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+} */

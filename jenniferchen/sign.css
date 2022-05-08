@@ -1,0 +1,19 @@
+#p5-canvas-container {
+    width: 450px;
+    height: 450x;
+    position: absolute;
+    left: 620px;
+    right: 620px;
+    top: 400px;
+    transform:translate(-50%,-50%);
+}
+
+
+.center{
+    display:block; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height:600px;
+}
